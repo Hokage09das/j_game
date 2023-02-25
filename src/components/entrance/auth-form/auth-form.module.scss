@@ -1,0 +1,59 @@
+.auth_form {
+  width: 30%;
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+
+  background-image: url("https://wallpapercave.com/wp/wp9436649.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 20px;
+  gap: 30px;
+
+  .title {
+    font-size: 24px;
+    color: white;
+  }
+
+  .user_field {
+    outline: none;
+    border: none;
+
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      270deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 36%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    opacity: 0.7;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .confirm_button {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px 10px;
+
+    outline: none;
+    border: none;
+
+    border-radius: 15px;
+    color: #fff;
+
+    background-image: url("https://images.unsplash.com/photo-1616712134411-6b6ae89bc3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

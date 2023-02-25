@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #2fa1da;
+  padding: 15px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.link {
+  color: white;
+}
+.active {
+  color: red;
+}
