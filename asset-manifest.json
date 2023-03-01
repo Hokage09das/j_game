@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/j_game/static/css/main.7b2eb70a.css",
+    "main.js": "/j_game/static/js/main.40012849.js",
+    "index.html": "/j_game/index.html",
+    "main.7b2eb70a.css.map": "/j_game/static/css/main.7b2eb70a.css.map",
+    "main.40012849.js.map": "/j_game/static/js/main.40012849.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b2eb70a.css",
+    "static/js/main.40012849.js"
+  ]
+}
