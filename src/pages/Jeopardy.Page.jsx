@@ -1,5 +1,7 @@
-import React from "react";
+
+import { Table } from "../components/table";
 
 export const JeopardyPage = () => {
-  return <div>Jeopardy.Page</div>;
+  
+  return <Table />;
 };

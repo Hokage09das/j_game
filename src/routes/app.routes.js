@@ -12,10 +12,11 @@ import {
   NotFoundPage,
   StatisticPage,
 } from "../pages";
+import { JeopardyItemPage } from "../pages/JeopardyItem.Page";
 
 export const AppRoutes = () => {
   const { isEntrance } = useSelector((state) => state.entrance);
-  console.log(isEntrance);
+
   return [
     {
       path: route.INNER_PAGE,
@@ -34,6 +35,10 @@ export const AppRoutes = () => {
               fallback={route.AUTH}
             />
           ),
+        },
+        {
+          path: route.JEOPARDY_ELEMENT,
+          element: <JeopardyItemPage />,
         },
         {
           path: route.STATISTIC,

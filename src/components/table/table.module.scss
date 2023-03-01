@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  //   background-color: red;
+  //   font-size: 36px;
+}
+
+.table {
+  border: 1px solid;
+  border-bottom: none;
+  border-right: none;
+  font-size: 36px;
+  min-width: 1000px;
+  background-color: grey;
+
+  .title {
+    min-width: 500px;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+}
+.table:last-child {
+  border-bottom: 1px solid;
+}
+
+.item {
+  list-style: none;
+  border: 1px solid;
+  border-bottom: none;
+  border-top: none;
+}
